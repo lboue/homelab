@@ -82,7 +82,7 @@ nat (inside,outside) after-auto source dynamic any interface
 access-group GCP-IN in interface gcp-if-0 control-plane
 access-group GCP-IN in interface gcp-if-0
 !
-prefix-list GCP-IN seq 6 permit 10.137.2.0/24 le 32
+prefix-list GCP-IN seq 5 permit 10.137.2.0/24 le 32
 prefix-list GCP-IN seq 10 permit 10.137.4.0/24 le 32
 !
 router bgp 64513
