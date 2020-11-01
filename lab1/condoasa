@@ -175,6 +175,7 @@ policy-map global_policy
   inspect ftp
   inspect h323 h225
   inspect h323 ras
+  inspect icmp
   inspect ip-options
   inspect netbios
   inspect rsh
